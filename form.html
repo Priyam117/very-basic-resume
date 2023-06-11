@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Assifnment</title>
+</head>
+<body style="font-size: 20px;">
+    <form action="" method="post">
+        <fieldset>
+          <legend>Personal Details</legend>
+          
+          <label for="firstname">First Name:</label>
+          <input type="text" id="name" name="firstname"><br><br>
+
+          <label for="middlename">Middle Name:</label>
+          <input type="text" id="name" name="middlename" required><br><br>
+
+          <label for="lastname">Last Name:</label>
+          <input type="text" id="name" name="lastname" required><br><br>
+
+          <label for="course">Course:</label>
+          <select>
+            <option>Course</option>
+            <option>B.Tech</option>
+            <option>BBA</option>
+            <option>BCA</option>
+            <option>MBA</option>
+            <option>Bsc AG</option>
+          </select>
+          <br><br>
+
+          <label for="gender">Gender:</label> <br>
+          <input type="radio"name="gender" value="male">
+          <label for="male">Male</label><br>
+          <input type="radio" name="gender" value="femlae">
+          <label for="female">Female</label><br>
+          <input type="radio" name="gender" value="other">
+          <label for="other">Other</label><br><br>
+
+          <label for="dob">DOB</label>
+          <input type="datetime-local" name="dob">
+          <br><br>
+
+          <label for="phnumber">Phone:</label> 
+          <input type="text" disabled value="+91">
+          <input type="number" name="phnumber">
+          <br><br>
+
+          <label for="address">Address</label><br>
+          <textarea rows="5" cols="80" name="address"></textarea>
+          <br><br>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+          <br><br>
+
+          <label for="password">Password:</label>
+          <input type="password" name="password">
+          <br><br>
+
+          <label for="retuprpassword">Re-type Password:</label>
+          <input type="password" name="retuprpassword">
+          <br><br>
+
+          <input type="checkbox" name="checkbox">
+          <label for="checkbox">Agree to terms and conditions</label>
+          <br><br>
+
+          <label for="file">Choose File</label>
+          <input type="file" name="file">
+          <br><br>
+
+          <label for="color">Choose Color</label>
+          <input type="color">
+          <br><br>
+          
+          <input type="reset" value="Reset">
+          <input type="submit" value="Submit">
+        </fieldset>
+      </form>
+</body>
+</html>
