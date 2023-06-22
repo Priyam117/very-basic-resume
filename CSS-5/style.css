@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    height: 10vh;
+    width: 100vw;
+    background-color: black;
+    color: cornsilk;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav-left{
+    height: 100%;
+    width: 35%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.nav-left > h1 {
+    font-size: 35px;
+}
+.nav-right{
+    height: 100%;
+    width: 45%;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+.nav-right > span > a {
+    text-decoration: none;
+    color: cornsilk;
+    font-size: 18px;
+}
+.d-pizza{
+    text-align: center;
+    margin: 50px auto;
+    height: 45px;
+    width: 40%;
+    background:linear-gradient(45deg,black,red,black);
+    border-radius: 50%;
+    color: white;
+}
+.d-pizza > h3 {
+   padding-top: 2%;
+}
+.d-text{
+    font-size: 18px;
+    text-align: center;
+}
+.d-img > img{
+    margin-left: 6%;
+    padding: 2%;
+    height: 350px;
+    width: 600px;
+    border-radius: 50px;
+}
+.d-img-heading{
+    display:flex;
+    justify-content: center;
+    gap: 45%;
+    margin-top: -2%;
+    margin-bottom: 3%;
+}
+table{
+    text-align: center;
+    width: 100%;
+}
+th > img{
+    margin-top: 2%;
+    padding: 2%;
+    width: 350px;
+    height: 220px;
+    border-radius: 30px;
+}
+footer{
+    margin-top: 5%;
+    height: 30vh;
+    width: 100vw;
+    background-color: rgb(31, 11, 11);
+    color: white;
+    text-align: center;
+    padding: 2%;
+}
+i {
+    margin-right: 3%;
+    font-size: 20px;
+}
