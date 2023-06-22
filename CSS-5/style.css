@@ -2,9 +2,13 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+body{
+    width: 100vw;
+}
 nav{
     height: 10vh;
-    width: 100vw;
+    width: 99%;
     background-color: black;
     color: cornsilk;
     display: flex;
@@ -51,16 +55,16 @@ nav{
     text-align: center;
 }
 .d-img > img{
-    margin-left: 6%;
+    margin-left: 10%;
     padding: 2%;
     height: 350px;
-    width: 600px;
+    width: 500px;
     border-radius: 50px;
 }
 .d-img-heading{
     display:flex;
     justify-content: center;
-    gap: 45%;
+    gap: 40%;
     margin-top: -2%;
     margin-bottom: 3%;
 }
@@ -70,8 +74,7 @@ table{
 }
 th > img{
     margin-top: 2%;
-    padding: 2%;
-    width: 350px;
+    width: 310px;
     height: 220px;
     border-radius: 30px;
 }
